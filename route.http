@@ -1,0 +1,29 @@
+POST http://localhost:3333/user
+Content-Type: application/json
+
+{
+    "name": "Kelvin Barcelos",
+    "cpf": "10111529913",
+    "phone": "48999246716",
+    "email": "nivlek.barcelos@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/user
+
+###
+
+PUT http://localhost:3333/user/9f6058aa-99a0-4c9e-9eff-96ed186e3b49
+Content-Type: application/json
+
+{
+    "name": "Jeniffer",
+    "cpf": "10111529912",
+    "phone": "48985478215",
+    "email": "nivlek.barcelos@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3333/user/9f6058aa-99a0-4c9e-9eff-96ed186e3b49
